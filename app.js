@@ -30,7 +30,7 @@ let Campground=mongoose.model("Campground",campgroundSchema);
 //         }
 //     });
 
-
+//This is for stack
 
 //   var campgrounds=[
 //         {name:"Anuj",image:"https://www.desicomments.com/dc3/17/425458/4254581.jpg"},
