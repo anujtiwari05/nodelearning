@@ -2,7 +2,8 @@ let express=require("express");
 let app=express();
 let bodyParser=require("body-parser");
 let mongoose=require("mongoose");
-mongoose.connect("mongodb://localhost/yelp_camp");
+//mongoose.connect("mongodb://localhost/yelp_camp");
+mongoose.connect("mongodb://anuj:anuj123@ds117691.mlab.com:17691/yelpcamp");
 
 app.use(bodyParser.urlencoded({extended:true}));
 
